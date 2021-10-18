@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let bodovi = prompt("Unesi broj bodova");
+    let ocjena;
+    let poruka;
+    if(bodovi>=50 && bodovi<=63){
+        ocjena=2
+        console.log ("Čestitke, prošli ste ispit i ostvarili ocjenu "+ ocjena)
+    }
+    else if (bodovi>=64 && bodovi <=76){
+        ocjena=3
+        console.log("Čestitke, prošli ste ispit i ostvarili ocjenu " + ocjena)
+    }
+    else if (bodovi >= 77 && bodovi<=89){
+        ocjena=4
+        console.log("Čestitke, prošli ste ispit i ostvarili ocjenu " +  ocjena)
+    }
+    else if(bodovi>=90 && bodovi <=100){
+        ocjena=5
+        console.log("Čestitke, prošli ste ispit i ostvarili ocjenu " + ocjena)
+    }
+    else if (bodovi>=0 && bodovi <= 49){
+        ocjena=1
+        console.log("Nažalost niste prošli ispit, vaša ocjena je " + ocjena)
+    }
+    else {
+        console.log("Unijeli ste veći ili manji broj mogućih bodova")
+    }
+    </script>
+</body>
+</html>
